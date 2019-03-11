@@ -17,7 +17,7 @@ RUN apk --no-cache update && \
 
 RUN mkdir -p $HOME && \
     addgroup weechat && \
-    adduser -h $HOME -D -s /bin/bash \
+    adduser -h $HOME -D -s /sbin/nologin \
         -G weechat weechat && \
     chown -R weechat:weechat $HOME
 
