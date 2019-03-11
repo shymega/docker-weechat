@@ -8,6 +8,7 @@ ENV USER=weechat \
     TERM=xterm-256color
 
 RUN apk --no-cache update && \
+    apk --no-cache upgrade && \
     apk --no-cache add \
     weechat weechat-perl \
     weechat-dev weechat-aspell \
