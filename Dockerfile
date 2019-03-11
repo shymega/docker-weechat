@@ -27,4 +27,5 @@ USER weechat
 
 EXPOSE 9001
 
-CMD ["weechat"]
+CMD ["--help"]
+ENTRYPOINT ["weechat"]
