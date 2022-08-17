@@ -3,7 +3,7 @@ FROM docker.io/alpine:latest
 LABEL maintainer="Dom Rodriguez <shymega@shymega.org.uk>"
 
 ENV USER=weechat \
-    HOME=/weechat \
+    HOME=/home/weechat \
     LANG=C.UTF-8 \
     TERM=xterm-256color
 
