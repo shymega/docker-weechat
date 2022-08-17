@@ -1,4 +1,4 @@
-FROM alpine:3.12
+FROM docker.io/alpine:latest
 
 LABEL maintainer="Dom Rodriguez <shymega@shymega.org.uk>"
 
